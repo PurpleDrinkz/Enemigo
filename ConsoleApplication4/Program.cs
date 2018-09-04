@@ -24,7 +24,7 @@ namespace ConsoleApplication4
             Console.WriteLine("Posicion en X: " + enemigouno.PosicionX);
             Console.WriteLine("Posicion en Y: " + enemigouno.PosicionY);
 
-            Console.WriteLine(" Elija 1 para Disparar o 2 para elegir");
+            Console.WriteLine(" Elija 1 para Disparar o 2 para elegir"); 
             eleccion = int.Parse(Console.ReadLine());
 
             if (eleccion == 1)
